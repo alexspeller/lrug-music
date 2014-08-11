@@ -34,12 +34,12 @@ end
 
 I, II, III, IV, V, VI, VII = 0, 1, 2, 3, 4, 5, 6
 
-song_chords = all_chords[I], all_chords[IV],
-  all_chords[V], all_chords[I]
+song_chords = all_chords[I], all_chords[V],
+  all_chords[VI], all_chords[IV]
 
 
 sample_rate       = 22050 # frames per second
-note_duration     = 2    # seconds
+note_duration     = 1    # seconds
 frames_per_note   = (sample_rate * note_duration).to_i
 
 samples = []
